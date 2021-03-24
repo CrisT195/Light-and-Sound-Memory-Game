@@ -43,7 +43,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![](MemoryGameWalkthrough.gif)
+
+<img src="MemoryGameWalkthrough.gif" width=700><br>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
