@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Light and Sound Memory Game</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1><span class="emphasizeTitle">Light</span> and <span class="emphasizeTitle">Sound</span> Memory Game</h1>
+
+    <p>
+      Welcome to the game! Repeat back the pattern by pressing the buttons below.
+      The timer will count down during your turn. 
+      You have 3 lives; use them wisely!
+    </p>
+
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    
+    <p class="hidden" id="countdown">
+      30 seconds left 
+    </p>
+    
+    <p class="inline">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+    
+    <div id="lives" class="hidden">
+      <img id="life1" src="https://cdn.glitch.com/697ba869-5360-4f19-87e3-0383d7783cdd%2FpixelHeart.png?v=1616170893081" width="30" height="30"/>
+      <img id="life2" src="https://cdn.glitch.com/697ba869-5360-4f19-87e3-0383d7783cdd%2FpixelHeart.png?v=1616170893081" width="30" height="30"/>
+      <img id="life3" src="https://cdn.glitch.com/697ba869-5360-4f19-87e3-0383d7783cdd%2FpixelHeart.png?v=1616170893081" width="30" height="30"/>
+    </div>
+    
+    <p class="hidden" id="playClue">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Playing clue</b>
+    </p>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
+    </div>
+
+  </body>
+</html>
