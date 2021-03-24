@@ -46,6 +46,10 @@ Here's a walkthrough of implemented user stories:
 
 <img src="MemoryGameWalkthrough.gif" width=700><br>
 
+Round where timer runs out:
+
+<img src="MemoryGameWalkthroughTimer.gif" width=700><br>
+
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Reflection Questions
