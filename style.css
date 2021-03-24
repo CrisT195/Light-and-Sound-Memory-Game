@@ -1,0 +1,148 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #264653; /*slategrey*/
+  color: #a8dadc;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  color: white;
+}
+
+/*img {
+  margin: 0px 5px;
+}*/
+
+.inline{
+  display: inline-block;
+  color: yellow;
+}
+
+.emphasizeTitle {
+  color: yellow;
+  font-style: italic;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#startBtn, #stopBtn{
+  margin-top: 10px;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden {
+  display:none;
+}
+
+#button1 {
+  background:lightgreen;
+}
+#button1:active, #button1.lit {
+  background:green;
+}
+#button1:active#button1.right {
+  background-image: url(https://cdn.glitch.com/697ba869-5360-4f19-87e3-0383d7783cdd%2Fcheckmark.png?v=1616035005706);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+#button1:active#button1.wrong {
+  background-image: url(https://cdn.glitch.com/697ba869-5360-4f19-87e3-0383d7783cdd%2FredX.png?v=1616168676562);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+
+#button2 {
+  background:lightblue;
+}
+#button2:active, #button2.lit {
+  background:blue;
+}
+#button2:active#button2.right {
+  background-image: url(https://cdn.glitch.com/697ba869-5360-4f19-87e3-0383d7783cdd%2Fcheckmark.png?v=1616035005706);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+#button2:active#button2.wrong {
+  background-image: url(https://cdn.glitch.com/697ba869-5360-4f19-87e3-0383d7783cdd%2FredX.png?v=1616168676562);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+
+#button3 {
+  background:pink;
+}
+#button3:active, #button3.lit {
+  background:crimson;
+}
+#button3:active#button3.right {
+  background-image: url(https://cdn.glitch.com/697ba869-5360-4f19-87e3-0383d7783cdd%2Fcheckmark.png?v=1616035005706);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+#button3:active#button3.wrong {
+  background-image: url(https://cdn.glitch.com/697ba869-5360-4f19-87e3-0383d7783cdd%2FredX.png?v=1616168676562);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+
+#button4 {
+  background:lightyellow;
+}
+#button4:active, #button4.lit {
+  background:yellow;
+}
+#button4:active#button4.right {
+  background-image: url(https://cdn.glitch.com/697ba869-5360-4f19-87e3-0383d7783cdd%2Fcheckmark.png?v=1616035005706);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+#button4:active#button4.wrong {
+  background-image: url(https://cdn.glitch.com/697ba869-5360-4f19-87e3-0383d7783cdd%2FredX.png?v=1616168676562);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+
+#button5 {
+  background:#ff99ff;
+}
+#button5:active, #button5.lit {
+  background:#cc00cc;
+}
+#button5:active#button5.right {
+  background-image: url(https://cdn.glitch.com/697ba869-5360-4f19-87e3-0383d7783cdd%2Fcheckmark.png?v=1616035005706);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+#button5:active#button5.wrong {
+  background-image: url(https://cdn.glitch.com/697ba869-5360-4f19-87e3-0383d7783cdd%2FredX.png?v=1616168676562);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+
+#button6 {
+  background:burlywood
+}
+#button6:active, #button6.lit {
+  background:chocolate;
+}
+#button6:active#button6.right {
+  background-image: url(https://cdn.glitch.com/697ba869-5360-4f19-87e3-0383d7783cdd%2Fcheckmark.png?v=1616035005706);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+#button6:active#button6.wrong {
+  background-image: url(https://cdn.glitch.com/697ba869-5360-4f19-87e3-0383d7783cdd%2FredX.png?v=1616168676562);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
